@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.96.0",
-    "cloudfuncs": "^1.0.1",
+    "cloudfuncs": "^1.0.2",
     "jsforce": "^1.8.0"
   }
 }
