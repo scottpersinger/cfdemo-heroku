@@ -1,6 +1,6 @@
 var jsforce = require('jsforce');
 var AWS = require('aws-sdk');
-AWS.Config({region: 'us-east-1'})
+AWS.config = new AWS.Config({region: 'us-east-1'})
 var dynamodb = new AWS.DynamoDB({region: 'us-east-1'});
 
 exports.handleLead = (event, context, callback) => {
